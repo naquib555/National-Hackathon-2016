@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qubit.newbornchildren.AddMother">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etMotherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="নাম" />
+
+        <EditText
+            android:id="@+id/etMotherLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="স্থান" />
+
+        <EditText
+            android:id="@+id/etMotherPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="ফোন" />
+
+        <EditText
+            android:id="@+id/etMotherAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="বয়স" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:checked="false"
+            android:id="@+id/cbFirstTime"
+            android:text="প্রথমবার মা?" />
+
+        <EditText
+            android:id="@+id/etMotherEDD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="আনুমানিক প্রস্রবন তারিখ (week)" />
+
+        <EditText
+            android:id="@+id/etMotherHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="উচ্চতা (cm)" />
+
+        <EditText
+            android:id="@+id/etMotherWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="ওজন (kg)" />
+
+
+        <EditText
+            android:id="@+id/etMotherBP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="ব্লাড প্রেসার" />
+
+
+        <EditText
+            android:id="@+id/etMotherBG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="ব্লাড গ্রুপ" />
+
+        <CheckBox
+            android:id="@+id/cbHep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="হেপাটাইটিস বি"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/cbTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="টিটি"
+            android:checked="false" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnAddMotherEnter"
+            android:text="যোগ করুন"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qubit.hackathon.HealthWorker.FirstTrimester">
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ডাক্তারের সাথে প্রথম সাক্ষাত"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:id="@+id/firstVisit"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="গভাবস্থা নিশ্চিতকরণ"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/confPregnancy"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উলত্রাসউন্দ "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/ultrasound"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ইউরিন টেস্ট"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/urineTest"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ব্লাড প্রেসার"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/cbBloodPressure"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ব্লাড প্রেসার "
+        android:id="@+id/etBloodPressure"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ওজন"
+        android:id="@+id/etWeight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="টিকা"
+        android:id="@+id/tvVacc" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="হেপাটাইটিস বি"
+        android:id="@+id/hepB"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="টিটি"
+        android:id="@+id/TT"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitFirst"
+        android:layout_marginTop="50dp"
+        android:text="Confirm"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qubit.newbornchildren.AddBaby"
+    android:id="@+id/addBabyFrag">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etBabysMother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="মায়ের নাম" />
+
+        <EditText
+            android:id="@+id/etBabysFather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="বাবার নাম" />
+
+        <EditText
+            android:id="@+id/etBabyLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="ঠিকানা" />
+
+        <EditText
+            android:id="@+id/etBabyPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="মায়ের ফোন নম্বর" />
+
+
+        <EditText
+            android:id="@+id/etBabyDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="বাচ্চার জন্ম তারিখ" />
+
+        <EditText
+            android:id="@+id/etBabyGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="বাচ্চার লিঙ্গ" />
+
+        <EditText
+            android:id="@+id/etBabyBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="বাচ্চার রক্তেরগ্রুপ" />
+
+        <EditText
+            android:id="@+id/etBabyWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="বাচ্চার ওজন" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnSubmit"
+            android:text="যোগ করুন"
+            android:onClick="Add"/>
+
+
+    </LinearLayout>
+</ScrollView>

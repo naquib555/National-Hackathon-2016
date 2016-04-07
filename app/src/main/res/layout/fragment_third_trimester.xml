@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qubit.hackathon.HealthWorker.ThirdTrimester">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/BPcheck"
+        android:text="বিপি চেক"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/UrineCheck"
+        android:text="ইউরিন চেক"
+        />
+
+    <CheckBox
+        android:id="@+id/movementOfBabyThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="বাচ্চার অঙ্গসঞ্চালন"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/weightGain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ওজন ব্রিদ্ধি"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/deliveryPrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="প্রস্রবন প্রসূতি"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/threeTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="৩ টিটি টিকা"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="হাসপাতাল ব্যবয়স্থা"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitThird"
+        android:layout_marginTop="50dp"
+        android:text="Confirm"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
